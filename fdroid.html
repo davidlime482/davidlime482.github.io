@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="./molly-favi.ico">
+
+  <title>Download Molly | F-Droid</title>
+  <meta name="description" content="Molly is an improved Signal app for Android">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://molly.im/fdroid">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Download Molly | F-Droid">
+  <meta property="og:description" content="Molly is an improved Signal app for Android">
+  <meta property="og:image" content="https://molly.im/assets/images/og_fdroid.webp">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="molly.im/fdroid">
+  <meta property="twitter:url" content="https://molly.im/fdroid">
+  <meta name="twitter:title" content="Download Molly | F-Droid">
+  <meta name="twitter:description" content="Molly is an improved Signal app for Android">
+  <meta name="twitter:image" content="https://molly.im/assets/images/og_fdroid.webp">
+
+  <!-- Fediverse Meta Tags -->
+  <meta name="fediverse:creator" content="@mollyim@fosstodon.org">
+</head>
+
+<body>
+
+<main>
+  <a href="./index.html"><img class="logo download"></a>
+  <h2>Get Molly on</h2>
+  <h1>F-Droid</h1>
+
+  <p style="max-width:50ch; line-height:1.3rem; font-size: 1.1rem;margin-top:2rem; text-align:center;">
+    F-Droid is an independent, community-sourced app store. Adding a repository to F-Droid makes its apps available for download and ensures access to secure app updates<br><br>
+    Download F-Droid at <a href="https://f-droid.org">f-droid.org</a>
+  </p>
+
+  <div class="buttons">
+    <a class="button"
+       href="fdroidrepos://molly.im/fdroid/repo?fingerprint=3B7E93B1FE32C6E35A93D6DDFC5AFBEB1239A7C6EA6AF20FF33ED53CDC38B04A">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+           class="icon icon-tabler icons-tabler-outline icon-tabler-download">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"/>
+        <path d="M7 11l5 5l5 -5"/>
+        <path d="M12 4l0 12"/>
+      </svg>
+      Molly
+    </a>
+  </div>
+
+
+</main>
+
+<p style="margin-top:3rem; text-align:center">You can also scan the following QR code: </p>
+
+<div class="qr">
+  <div class="qr">
+    Molly<br><br>
+    <img src="./assets/images/fdroid-molly.webp">
+  </div>
+</div>
+
+<!-- Social + footer remain unchanged -->
+
+<script>
+  const currentYear = new Date().getFullYear();
+  document.getElementById('copyright').textContent = `© ${currentYear} Molly.im`;
+</script>
+
+</body>
+</html>
